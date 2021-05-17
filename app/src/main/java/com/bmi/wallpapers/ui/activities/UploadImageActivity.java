@@ -94,7 +94,7 @@ public class UploadImageActivity extends AppCompatActivity implements ProgressRe
     private ProgressDialog pd;
     private LinearLayout linear_layout_select;
     private FloatingActionButton fab_upload;
-    private EditText edit_text_upload_description;
+    //private EditText edit_text_upload_description;
     private LinearLayout linear_layout_categories;
     private LinearLayout linear_layout_colors;
     public void checkPermission(){
@@ -171,10 +171,10 @@ public class UploadImageActivity extends AppCompatActivity implements ProgressRe
         this.linear_layout_colors=(LinearLayout) findViewById(R.id.linear_layout_colors);
         this.linear_layout_categories=(LinearLayout) findViewById(R.id.linear_layout_categories);
         pd = new ProgressDialog(UploadImageActivity.this);
-        pd.setMessage("Uploading video");
+        pd.setMessage("Uploading Wallpaper");
         pd.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
         pd.setCancelable(false);
-        this.edit_text_upload_description =  (EditText) findViewById(R.id.edit_text_upload_description);
+        //this.edit_text_upload_description =  (EditText) findViewById(R.id.edit_text_upload_description);
         this.fab_upload =  (FloatingActionButton) findViewById(R.id.fab_upload);
         this.linear_layout_select =  (LinearLayout) findViewById(R.id.linear_layout_select);
         this.edit_text_upload_title=(EditText) findViewById(R.id.edit_text_upload_title);
@@ -266,7 +266,7 @@ public class UploadImageActivity extends AppCompatActivity implements ProgressRe
 
             File file = new File(videoUrl);
             Log.v("SIZE",file.getName()+"");
-//            edit_text_upload_title.setText(file.getName().replace(".mp4","").replace(".MP4",""));
+            //edit_text_upload_title.setText(file.getName().replace(".mp4","").replace(".MP4",""));
 
         } else {
 
@@ -309,7 +309,7 @@ public class UploadImageActivity extends AppCompatActivity implements ProgressRe
         String id_ser=  prf.getString("ID_USER");
         String key_ser=  prf.getString("TOKEN_USER");
 
-        Call<ApiResponse> request = service.uploadImage(body, id_ser, key_ser, edit_text_upload_title.getText().toString().trim(),edit_text_upload_description.getText().toString().trim(),getSelectedColors(),getSelectedCategories());
+        Call<ApiResponse> request = service.uploadImage(body, id_ser, key_ser, edit_text_upload_title.getText().toString().trim(),getSelectedColors(),getSelectedCategories());
 
         request.enqueue(new Callback<ApiResponse>() {
             @Override

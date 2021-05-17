@@ -343,7 +343,7 @@ public class UploadVideoActivity extends AppCompatActivity implements ProgressRe
         String id_ser=  prf.getString("ID_USER");
         String key_ser=  prf.getString("TOKEN_USER");
 
-        Call<ApiResponse> request = service.uploadVideo(body,bodythum, id_ser, key_ser, edit_text_upload_title.getText().toString().trim(),edit_text_upload_description.getText().toString().trim(),getSelectedColors(),getSelectedCategories());
+        Call<ApiResponse> request = service.uploadVideo(body,bodythum, id_ser, key_ser, edit_text_upload_title.getText().toString().trim(),getSelectedColors(),getSelectedCategories());
 
         request.enqueue(new Callback<ApiResponse>() {
             @Override

@@ -177,11 +177,11 @@ public interface apiRest {
 
     @Multipart
     @POST("video/upload/"+ Config.TOKEN_APP+"/"+ Config.ITEM_PURCHASE_CODE+"/")
-    Call<ApiResponse> uploadVideo(@Part MultipartBody.Part file,@Part MultipartBody.Part file_thum,@Part("id") String id, @Part("key") String key, @Part("title") String title, @Part("description") String description,@Part("colors") String colors,@Part("categories") String categories);
+    Call<ApiResponse> uploadVideo(@Part MultipartBody.Part file,@Part MultipartBody.Part file_thum,@Part("id") String id, @Part("key") String key, @Part("title") String title,@Part("colors") String colors,@Part("categories") String categories);
 
     @Multipart
     @POST("image/upload/"+ Config.TOKEN_APP+"/"+ Config.ITEM_PURCHASE_CODE+"/")
-    Call<ApiResponse> uploadImage(@Part MultipartBody.Part file,@Part("id") String id, @Part("key") String key, @Part("title") String title, @Part("description") String description,@Part("colors") String colors,@Part("categories") String categories);
+    Call<ApiResponse> uploadImage(@Part MultipartBody.Part file,@Part("id") String id, @Part("key") String key, @Part("title") String title,@Part("colors") String colors,@Part("categories") String categories);
 
     @Multipart
     @POST("gif/upload/"+ Config.TOKEN_APP+"/"+ Config.ITEM_PURCHASE_CODE+"/")

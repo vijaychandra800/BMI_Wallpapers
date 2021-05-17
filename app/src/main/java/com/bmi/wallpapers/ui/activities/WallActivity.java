@@ -367,12 +367,12 @@ public class WallActivity extends AppCompatActivity {
         else
             image_view_wallpaper_activity_trusted.setVisibility(View.GONE);
 
-        if (description != null) {
+       /* if (description != null) {
             if (!description.isEmpty()){
                 text_view_wallpaper_activity_description.setText(description);
                 text_view_wallpaper_activity_description.setVisibility(View.VISIBLE);
             }
-        }
+        }*/
 
 
 
@@ -645,7 +645,7 @@ public class WallActivity extends AppCompatActivity {
         this.id = bundle.getInt("id");
         this.color = "#" + bundle.getString("color");
         this.title = bundle.getString("title");
-        this.description = bundle.getString("description");
+       // this.description = bundle.getString("description");
 
         this.extension = bundle.getString("extension");
         this.size = bundle.getString("size");
@@ -754,7 +754,7 @@ public class WallActivity extends AppCompatActivity {
         circle_image_view_wallpaper_activity_user = findViewById(R.id.circle_image_view_wallpaper_activity_user);
 
         linear_layout_wallpaper_activity_favorite = findViewById(R.id.linear_layout_wallpaper_activity_favorite);
-        text_view_wallpaper_activity_description = findViewById(R.id.text_view_wallpaper_activity_description);
+       // text_view_wallpaper_activity_description = findViewById(R.id.text_view_wallpaper_activity_description);
         text_view_wallpaper_activity_title = findViewById(R.id.text_view_wallpaper_activity_title);
         sliding_layout_wallpaper_activit = findViewById(R.id.sliding_layout_wallpaper_activit);
         relative_activity_wallpaper_layout_panel_bottom = findViewById(R.id.relative_activity_wallpaper_layout_panel_bottom);
@@ -971,7 +971,7 @@ public class WallActivity extends AppCompatActivity {
             Wallpaper wallpaper = new Wallpaper();
             wallpaper.setId(id);
             wallpaper.setTitle(title);
-            wallpaper.setDescription(description);
+//            wallpaper.setDescription(description);
             wallpaper.setColor(color.replace("#",""));
             wallpaper.setComment(comment);
             wallpaper.setComments(comments);
