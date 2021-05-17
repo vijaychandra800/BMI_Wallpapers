@@ -170,7 +170,7 @@ public class VideoActivity extends AppCompatActivity {
     private TextView text_view_video_activity_name_user;
     private ImageView image_view_video_activity_trusted;
     private Button button_video_activity_follow_user;
-    private TextView text_view_video_activity_description;
+   // private TextView text_view_video_activity_description;
     private RecyclerView recycler_view_video_activity_colors;
 
 
@@ -834,7 +834,7 @@ public class VideoActivity extends AppCompatActivity {
         circle_image_view_video_activity_user = findViewById(R.id.circle_image_view_video_activity_user);
 
         linear_layout_video_activity_favorite = findViewById(R.id.linear_layout_video_activity_favorite);
-        text_view_video_activity_description = findViewById(R.id.text_view_video_activity_description);
+       // text_view_video_activity_description = findViewById(R.id.text_view_video_activity_description);
         text_view_video_activity_title = findViewById(R.id.text_view_video_activity_title);
         sliding_layout_video_activit = findViewById(R.id.sliding_layout_video_activit);
         relative_activity_video_layout_panel_bottom = findViewById(R.id.relative_activity_video_layout_panel_bottom);
@@ -1415,8 +1415,8 @@ public class VideoActivity extends AppCompatActivity {
 
         if (description != null) {
             if (!description.isEmpty()){
-                text_view_video_activity_description.setText(description);
-                text_view_video_activity_description.setVisibility(View.VISIBLE);
+              //  text_view_video_activity_description.setText(description);
+               // text_view_video_activity_description.setVisibility(View.VISIBLE);
             }
         }
 

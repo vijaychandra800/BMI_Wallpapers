@@ -160,7 +160,7 @@ public class WallActivity extends AppCompatActivity {
     private TextView text_view_wallpaper_activity_name_user;
     private ImageView image_view_wallpaper_activity_trusted;
     private Button button_wallpaper_activity_follow_user;
-    private TextView text_view_wallpaper_activity_description;
+   // private TextView text_view_wallpaper_activity_description;
     private RecyclerView recycler_view_wallpaper_activity_colors;
 
 
@@ -367,12 +367,12 @@ public class WallActivity extends AppCompatActivity {
         else
             image_view_wallpaper_activity_trusted.setVisibility(View.GONE);
 
-       /* if (description != null) {
+        if (description != null) {
             if (!description.isEmpty()){
-                text_view_wallpaper_activity_description.setText(description);
-                text_view_wallpaper_activity_description.setVisibility(View.VISIBLE);
+               // text_view_wallpaper_activity_description.setText(description);
+                //text_view_wallpaper_activity_description.setVisibility(View.VISIBLE);
             }
-        }*/
+        }
 
 
 
