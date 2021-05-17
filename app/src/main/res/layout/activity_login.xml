@@ -37,7 +37,7 @@
                 android:layout_marginBottom="10dp"
                 android:lineSpacingExtra="3dp"
                 android:textColor="@color/primary_text_light"
-                android:text="In order to collect ,like ,sahre and download free content, you have to be signed up/in, Signing up/In  is free and has a lot of advantages:"
+                android:text="In order to collect, like, share and Download Free Content, you have to be Signed up/in, Signing Up/In is free and has a lot of Advantages:"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <RelativeLayout
@@ -52,7 +52,7 @@
                     android:layout_height="5dp"/>
                 <TextView
                     android:textSize="13dp"
-                    android:text="Follow and  discover your favorite authors"
+                    android:text="Follow and Discover your Favorite Authors"
                     android:layout_marginLeft="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -69,7 +69,7 @@
                     android:layout_height="5dp"/>
                 <TextView
                     android:textSize="13dp"
-                    android:text="Publish you creative content with our community ."
+                    android:text="Publish your Creative Content with our Community."
                     android:layout_marginLeft="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -86,7 +86,7 @@
                     android:layout_height="5dp"/>
                 <TextView
                     android:textSize="13dp"
-                    android:text="Give your option in comment section"
+                    android:text="Give your opinion in Comments Section"
                     android:layout_marginLeft="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -103,7 +103,7 @@
                     android:layout_height="5dp"/>
                 <TextView
                     android:textSize="13dp"
-                    android:text="Rate content and add your power"
+                    android:text="Rate Content and Add your Power"
                     android:layout_marginLeft="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -120,7 +120,7 @@
                     android:layout_height="5dp"/>
                 <TextView
                     android:textSize="13dp"
-                    android:text="Has own profile and take your trusted badge"
+                    android:text="Has own profile and take your Trusted Badge"
                     android:layout_marginLeft="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />

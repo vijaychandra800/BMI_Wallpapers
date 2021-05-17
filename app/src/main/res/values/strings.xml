@@ -1,24 +1,17 @@
 <resources>
-    <string name="app_name">Ultimate Live Wallpaper App</string>
-    <string name="panel_url">wallpapers.virmana.com</string>
-    <string name="policy_privacy_url">http://virmana.com/privacy_policy.html</string>
+    <string name="app_name">BMI Wallpapers</string>
+    <string name="panel_url">bmi.atozhacks.in</string>
+    <string name="policy_privacy_url">https://bmi.atozhacks.in/privacy_policy.html</string>
+
+    <string name="facebook_app_id">511976616832866</string>
+    <string name="fb_login_protocol_scheme">fb511976616832866</string>
 
 
-    <string name="facebook_app_id">2330675377215489</string>
-    <string name="fb_login_protocol_scheme">fb2330675377215489</string>
-
-
-    <string name="download_more_from_link">Get more from == http://google.com ==</string>
+    <string name="download_more_from_link">Get more Apps from https://play.google.com/store/apps/dev?id=8831768776165456136 </string>
     <string name="share_via">Shared via</string>
+    <string name="my_google_play">https://play.google.com/store/apps/dev?id=8831768776165456136</string>
 
-    <string name="my_google_play">https://play.google.com/store/apps/dev?id=7683785718851131527</string>
-
-
-
-
-
-
-    <string name="DownloadFolder">/Download/Wallpaper/</string>
+    <string name="DownloadFolder">/BMI Wallpapers</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_settings">Settings</string>
@@ -34,7 +27,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="error_server">Check your internet connexion</string>
-    <string name="try_again">Try agin</string>
+    <string name="try_again">Try again</string>
 
     <string name="download">Download</string>
     <string name="set">Set</string>
@@ -48,12 +41,12 @@
     <string name="now_time">Now</string>
     <string name="progress_login">Work in progress</string>
     <string name="message_sended">Message has been sent successfully</string>
-    <string name="title_notification">Enable push notifiction</string>
-    <string name="label_notification">Receive push notification</string>
+    <string name="title_notification">Enable Push Notifications</string>
+    <string name="label_notification">Receive Push Notifications</string>
     <string name="clear_cache">Clear Cache</string>
     <string name="label_cache">Clear locally cached images. Currently : </string>
     <string name="update_now">Update Now</string>
-    <string name="contact_us">Contact us</string>
+    <string name="contact_us">Contact US</string>
     <string name="policy_privacy">Policy privacy</string>
     <string name="version_label">Current version</string>
     <string name="hint_message">Your message</string>
@@ -75,7 +68,7 @@
     <string name="please_login_short">Please sign in/up</string>
     <string name="action_rate">Rate this App</string>
     <string name="loading">Laoading</string>
-    <string name="description_subsribte">Subscribe now and get premium content also enjoy an ad-free experiance . and focus on the  essential! </string>
+    <string name="description_subsribte">Subscribe now and get premium content also enjoy an ad-free experience . and focus on the  essential! </string>
     <string name="title_upload">Upload Yours</string>
     <string name="set_alarm">SET ALARM</string>
     <string name="set_notification">SET NOTIFICATION</string>
@@ -87,7 +80,7 @@
     <string name="download_ringtone_from">Download it from :</string>
 
     <string name="title_slide_1">Welcome to Wallpaper App</string>
-    <string name="description_slide_1">Thank you for download Wallpaper App ,Enjoy with this Amazing andoid app with cool features .</string>
+    <string name="description_slide_1">Thank you for download Wallpaper App ,Enjoy with this Amazing android app with cool features .</string>
 
     <string name="title_slide_2">Everything organised here</string>
     <string name="description_slide_2">You can find any content easily by using categories , languages , tags .</string>
@@ -96,7 +89,7 @@
     <string name="description_slide_3">Register now and share you creative idea with many users and be one of our community .</string>
 
     <string name="title_slide_4">Download and share</string>
-    <string name="description_slide_4">Dwonload Any content and keep it on your device to watch it on offline mode , and share it with your frients  </string>
+    <string name="description_slide_4">Download Any content and keep it on your device to watch it on offline mode , and share it with your frients  </string>
 
     <string name="title_slide_5">Favorites</string>
     <string name="description_slide_5">Create your favorite list and save any content to view it later . </string>
@@ -111,7 +104,7 @@
     <string name="report_ringtone">Report this Wallpaper</string>
     <string name="skip">Skip</string>
     <string name="rate_our_app">Rate Our App</string>
-    <string name="rate_our_app_message">If you love our application ,please take a moment to rate it .</string>
+    <string name="rate_our_app_message">If you love our application ,please take a moment to Rate it .</string>
     <string name="rate_now">Rate Now</string>
     <string name="later">Later</string>
     <string name="no_again">Don’t ask again</string>
@@ -120,7 +113,7 @@
     <string name="dialog_text_no_premium_wallpapers_title">Premium Content</string>
     <string name="dialog_text_no_premium_wallpapers_description">Get unlimited wallpapers</string>
     <string name="dialog_text_no_ads_description">Use App more free without ads</string>
-    <string name="my_profile">My profile</string>
+    <string name="my_profile">My Profile</string>
     <string name="login">Login / Register</string>
     <string name="Logout">Logout</string>
     <string name="share_this_app">Share this App</string>
@@ -129,7 +122,7 @@
     <string name="hint_facebook">Facebook url</string>
     <string name="hint_twitter">Twitter url</string>
     <string name="hint_instragram">Instagram Url</string>
-    <string name="invalide_url">Invalide Url</string>
+    <string name="invalide_url">Invalid Url</string>
     <string name="loading_user_data">Loading user data</string>
     <string name="permission_desc">Now we need your permission to continue use the application perfectly</string>
     <string name="permission_title">Everything is okey</string>
