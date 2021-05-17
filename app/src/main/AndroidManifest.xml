@@ -173,9 +173,6 @@
             android:showOnLockScreen="true"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.bmi.wallpapers.ui.activities.ColorActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name="com.bmi.wallpapers.ui.activities.PacksActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.bmi.wallpapers.ui.activities.PackActivity"

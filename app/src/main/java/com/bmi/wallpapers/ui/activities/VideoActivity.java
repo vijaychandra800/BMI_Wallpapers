@@ -275,8 +275,6 @@ public class VideoActivity extends AppCompatActivity {
     private boolean colorsLoaded =  false;
     private boolean ratingsLoaded = false;
 
-    //
-
 
 
     private  Boolean DialogOpened = false;

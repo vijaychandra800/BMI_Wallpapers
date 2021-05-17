@@ -183,7 +183,7 @@ public class ColorActivity extends AppCompatActivity {
 
     }
     private void initView() {
-         prefManager= new PrefManager(getApplicationContext());
+        prefManager= new PrefManager(getApplicationContext());
 
         if (!prefManager.getString("ADMIN_NATIVE_TYPE").equals("FALSE")){
             native_ads_enabled=true;
@@ -401,7 +401,6 @@ public class ColorActivity extends AppCompatActivity {
                 image_view_empty.setVisibility(View.GONE);
                 linear_layout_page_error.setVisibility(View.VISIBLE);
                 swipe_refreshl_color_activity.setRefreshing(false);
-
             }
         });
     }

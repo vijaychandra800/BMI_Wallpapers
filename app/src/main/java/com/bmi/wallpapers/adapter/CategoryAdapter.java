@@ -87,14 +87,14 @@ public class CategoryAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
                 break;
             }
             case 2: {
-                    final CategoryAdapter.TagsHolder holder = (CategoryAdapter.TagsHolder) holder_parent;
-                    this.linearLayoutManager=  new LinearLayoutManager(activity,LinearLayoutManager.HORIZONTAL,false);
-                    this.colorAdapter =new ColorAdapter(colorList,activity);
-                    holder.recycle_view_tags_items.setHasFixedSize(true);
-                    holder.recycle_view_tags_items.setAdapter(colorAdapter);
-                    holder.recycle_view_tags_items.setLayoutManager(linearLayoutManager);
-                    colorAdapter.notifyDataSetChanged();
-                    break;
+                final CategoryAdapter.TagsHolder holder = (CategoryAdapter.TagsHolder) holder_parent;
+                this.linearLayoutManager=  new LinearLayoutManager(activity,LinearLayoutManager.HORIZONTAL,false);
+                this.colorAdapter =new ColorAdapter(colorList,activity);
+                holder.recycle_view_tags_items.setHasFixedSize(true);
+                holder.recycle_view_tags_items.setAdapter(colorAdapter);
+                holder.recycle_view_tags_items.setLayoutManager(linearLayoutManager);
+                colorAdapter.notifyDataSetChanged();
+                break;
             }
         }
     }

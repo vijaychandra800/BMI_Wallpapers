@@ -250,7 +250,7 @@ public class GifActivity extends AppCompatActivity {
     // Lists
     private List<Comment> commentList = new ArrayList<>();
     private List<com.bmi.wallpapers.entity.Color> colorList = new ArrayList<>();
-    // variabl;es
+    // variables
     private boolean colorsLoaded =  false;
     private boolean ratingsLoaded = false;
     private GIFView gif_view_activity_gif;

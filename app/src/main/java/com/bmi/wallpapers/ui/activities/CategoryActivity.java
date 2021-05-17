@@ -199,7 +199,7 @@ public class CategoryActivity extends AppCompatActivity {
                         .build());
     }
     private void initView() {
-         prefManager= new PrefManager(getApplicationContext());
+        prefManager= new PrefManager(getApplicationContext());
 
         if (!prefManager.getString("ADMIN_NATIVE_TYPE").equals("FALSE")){
             native_ads_enabled=true;

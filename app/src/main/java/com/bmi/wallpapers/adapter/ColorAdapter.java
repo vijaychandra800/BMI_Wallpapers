@@ -56,20 +56,20 @@ public class ColorAdapter extends  RecyclerView.Adapter<ColorAdapter.ColorHolder
             holder.card_view_tag_item_global.setCardBackgroundColor(android.graphics.Color.parseColor("#CCCCCC"));
 
         holder.card_view_tag_item_global.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    try{
-                        Intent intent_video  =  new Intent(activity, ColorActivity.class);
-                        intent_video.putExtra("id",colorList.get(position).getId());
-                        intent_video.putExtra("title",colorList.get(position).getTitle());
-                        intent_video.putExtra("code",colorList.get(position).getCode());
-                        activity.startActivity(intent_video);
-                        activity.overridePendingTransition(R.anim.enter, R.anim.exit);
-                    }catch (IndexOutOfBoundsException e){
+            @Override
+            public void onClick(View v) {
+                try{
+                    Intent intent_video  =  new Intent(activity, ColorActivity.class);
+                    intent_video.putExtra("id",colorList.get(position).getId());
+                    intent_video.putExtra("title",colorList.get(position).getTitle());
+                    intent_video.putExtra("code",colorList.get(position).getCode());
+                    activity.startActivity(intent_video);
+                    activity.overridePendingTransition(R.anim.enter, R.anim.exit);
+                }catch (IndexOutOfBoundsException e){
 
-                    }
                 }
-            });
+            }
+        });
 
     }
 
@@ -83,7 +83,7 @@ public class ColorAdapter extends  RecyclerView.Adapter<ColorAdapter.ColorHolder
 
         public ColorHolder(View itemView) {
             super(itemView);
-            //this.card_view_tag_item_global=(CardView) itemView.findViewById(R.id.card_view_tag_item_global);
+            this.card_view_tag_item_global=(CardView) itemView.findViewById(R.id.card_view_tag_item_global);
             this.text_view_item_tag_item=(TextView) itemView.findViewById(R.id.text_view_item_tag_item);
         }
     }
