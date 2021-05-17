@@ -144,5 +144,6 @@
         <item>@color/colorPrimaryDark</item>
     </array>
     <string name="accept_privacy_policy_error">You should accept the privacy policy before login</string>
+    <string name="rate_app_dialog">How Was Your Experience With BMI Wallpapers?</string>
 
 </resources>

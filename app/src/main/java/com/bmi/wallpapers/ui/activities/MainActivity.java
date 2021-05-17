@@ -168,9 +168,9 @@ public class MainActivity extends AppCompatActivity
         firebaseSubscribe();
 
         PrefManager prf= new PrefManager(getApplicationContext());
-        if (!prf.getString("SUBSCRIBED").equals("FALSE")) {
+  /*      if (!prf.getString("SUBSCRIBED").equals("FALSE")) {
             navigationView.getMenu().findItem(R.id.nav_go_pro).setVisible(false);
-        }
+        }*/
         initGDPR();
 
 
@@ -326,7 +326,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public boolean onActionSelected(SpeedDialActionItem speedDialActionItem) {
                 switch (speedDialActionItem.getId()) {
-                    case R.id.fab_gif:
+                    /*case R.id.fab_gif:
                         if (prf.getString("LOGGED").toString().equals("TRUE")){
                             startActivity(new Intent(MainActivity.this,UploadGifActivity.class));
                             overridePendingTransition(R.anim.enter, R.anim.exit);
@@ -335,7 +335,7 @@ public class MainActivity extends AppCompatActivity
                             startActivity(intent);
                             FromLogin=true;
                         }
-                        return false; // true to keep the Speed Dial open
+                        return false; */// true to keep the Speed Dial open
                     case R.id.fab_image:
                         if (prf.getString("LOGGED").toString().equals("TRUE")){
                             startActivity(new Intent(MainActivity.this,UploadImageActivity.class));
@@ -346,7 +346,7 @@ public class MainActivity extends AppCompatActivity
                             FromLogin=true;
                         }
                         return false; // true to keep the Speed Dial open
-                    case R.id.fab_video:
+                    /*case R.id.fab_video:
                         if (prf.getString("LOGGED").toString().equals("TRUE")){
                             startActivity(new Intent(MainActivity.this,UploadVideoActivity.class));
                             overridePendingTransition(R.anim.enter, R.anim.exit);
@@ -355,7 +355,7 @@ public class MainActivity extends AppCompatActivity
                             startActivity(intent);
                             FromLogin=true;
                         }
-                        return false; // true to keep the Speed Dial open
+                        return false;*/ // true to keep the Speed Dial open
                     default:
                         return false;
                 }
@@ -370,22 +370,22 @@ public class MainActivity extends AppCompatActivity
 
         this.speed_dial_main_activity = (SpeedDialView) findViewById(R.id.speed_dial_main_activity);
         speed_dial_main_activity.inflate(R.menu.menu_speed_dial);
-        speed_dial_main_activity.addActionItem(
+        /*speed_dial_main_activity.addActionItem(
                 new SpeedDialActionItem.Builder(R.id.fab_gif,R.drawable.ic_gif)
                         .setFabImageTintColor(ResourcesCompat.getColor(getResources(), R.color.white, getTheme()))
                         .setLabel(getString(R.string.upload_gif))
                         .setFabBackgroundColor(getResources().getColor((R.color.black)))
                         .setLabelBackgroundColor(getResources().getColor((R.color.white)))
                         .create()
-        );
-        speed_dial_main_activity.addActionItem(
+        );*/
+        /*speed_dial_main_activity.addActionItem(
                 new SpeedDialActionItem.Builder(R.id.fab_video,R.drawable.ic_play)
                         .setFabImageTintColor(ResourcesCompat.getColor(getResources(),  R.color.white, getTheme()))
                         .setLabel(getString(R.string.upload_video))
                         .setFabBackgroundColor(getResources().getColor((R.color.black)))
                         .setLabelBackgroundColor(getResources().getColor((R.color.white)))
                         .create()
-        );
+        );*/
         speed_dial_main_activity.addActionItem(
                 new SpeedDialActionItem.Builder(R.id.fab_image,R.drawable.ic_image)
                         .setFabImageTintColor(ResourcesCompat.getColor(getResources(),  R.color.white, getTheme()))
@@ -579,9 +579,9 @@ public class MainActivity extends AppCompatActivity
         searchView.setMenuItem(item);
         PrefManager prf= new PrefManager(getApplicationContext());
 
-        if (!prf.getString("SUBSCRIBED").equals("FALSE")) {
+        /*if (!prf.getString("SUBSCRIBED").equals("FALSE")) {
             menu.findItem(R.id.action_pro).setVisible(false);
-        }
+        }*/
         return true;
     }
 
@@ -593,9 +593,9 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_pro) {
+        /*if (id == R.id.action_pro) {
             showDialog();
-        }else if(id == R.id.gplay) {
+        }else*/ if(id == R.id.gplay) {
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getResources().getString(R.string.my_google_play))));
         }
 
@@ -635,9 +635,9 @@ public class MainActivity extends AppCompatActivity
             sharingIntent.putExtra(Intent.EXTRA_SUBJECT,  getString(R.string.app_name));
             startActivity(Intent.createChooser(sharingIntent, getResources().getString(R.string.app_name)));
 
-        }else if(id ==  R.id.nav_go_pro){
+        }/*else if(id ==  R.id.nav_go_pro){
             showDialog();
-        }else if (id == R.id.nav_rate){
+        }*/else if (id == R.id.nav_rate){
             rateDialog(false);
         }else if (id==R.id.my_profile){
             PrefManager prf= new PrefManager(getApplicationContext());
