@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1065158193139",
+    "project_id": "bmi-wallpapers-ccf25",
+    "storage_bucket": "bmi-wallpapers-ccf25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065158193139:android:437ec5c001d5858163ec86",
+        "android_client_info": {
+          "package_name": "com.bmi.wallpapers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065158193139-eqsb4afv6vv5mrt6eeksvsagc5eq49nc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNeVBiTl7cmrOnhlchSyHezDCwfSPkJJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065158193139-eqsb4afv6vv5mrt6eeksvsagc5eq49nc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
