@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BMI Wallpapers</string>
+    <string name="app_name">BMI Walls</string>
     <string name="panel_url">bmi.atozhacks.in</string>
     <string name="policy_privacy_url">https://bmi.atozhacks.in/privacy_policy.html</string>
 
@@ -46,29 +46,29 @@
     <string name="clear_cache">Clear Cache</string>
     <string name="label_cache">Clear locally cached images. Currently : </string>
     <string name="update_now">Update Now</string>
-    <string name="contact_us">Contact US</string>
-    <string name="policy_privacy">Policy privacy</string>
+    <string name="contact_us">Contact us</string>
+    <string name="policy_privacy">Privacy Policy</string>
     <string name="version_label">Current version</string>
     <string name="hint_message">Your message</string>
     <string name="send_support">Send Message</string>
     <string name="image_upload_error">Please select a wallpaper</string>
     <string name="color_tags_upload_error">Please select tags</string>
-    <string name="edit_text_upload_title_error">Title very short , please a write correct title</string>
-    <string name="welcome_login_text">Login to comment , upload your wallpaper ....</string>
+    <string name="edit_text_upload_title_error">Title is very short , Please write a correct title</string>
+    <string name="welcome_login_text">Login to comment , Upload your wallpaper </string>
     <string name="account_disabled">Sorry your account has been locked</string>
     <string name="login_gg_text">Login with google</string>
     <string name="message_logout">You are successfully logout</string>
 
     <string name="hint_email">E-mail</string>
-    <string name="hint_name">Full name</string>
+    <string name="hint_name">Full Name</string>
     <string name="error_mail_valide">Please enter a valid E-mail</string>
     <string name="error_short_value">Your field is too short</string>
     <string name="exit">Exit</string>
     <string name="please_login">Sign in and start using full Application features</string>
-    <string name="please_login_short">Please sign in/up</string>
+    <string name="please_login_short">Please Sign in/up</string>
     <string name="action_rate">Rate this App</string>
-    <string name="loading">Laoading</string>
-    <string name="description_subsribte">Subscribe now and get premium content also enjoy an ad-free experience . and focus on the  essential! </string>
+    <string name="loading">Loading</string>
+    <string name="description_subsribte">Subscribe now and get premium content also enjoy an ad-free experience and focus on the  essential! </string>
     <string name="title_upload">Upload Yours</string>
     <string name="set_alarm">SET ALARM</string>
     <string name="set_notification">SET NOTIFICATION</string>
@@ -79,26 +79,26 @@
     <string name="popular_searches">Popular Searches</string>
     <string name="download_ringtone_from">Download it from :</string>
 
-    <string name="title_slide_1">Welcome to Wallpaper App</string>
-    <string name="description_slide_1">Thank you for download Wallpaper App ,Enjoy with this Amazing android app with cool features .</string>
+    <string name="title_slide_1">Welcome to BMI Wallpapers App</string>
+    <string name="description_slide_1">Thank you for downloading BMI Wallpapers, Enjoy this Amazing Wallpapers App with Cool Features.</string>
 
-    <string name="title_slide_2">Everything organised here</string>
-    <string name="description_slide_2">You can find any content easily by using categories , languages , tags .</string>
+    <string name="title_slide_2">Everything is organised here</string>
+    <string name="description_slide_2">You can find any Wallpapers easily by using Categories, Tags .</string>
 
     <string name="title_slide_3">Be Creative </string>
-    <string name="description_slide_3">Register now and share you creative idea with many users and be one of our community .</string>
+    <string name="description_slide_3">Register now and share you creative content with many users and be one of our community .</string>
 
     <string name="title_slide_4">Download and share</string>
-    <string name="description_slide_4">Download Any content and keep it on your device to watch it on offline mode , and share it with your frients  </string>
+    <string name="description_slide_4">Download Any Wallpaper and keep it on your device to apply it and share it with your friends  </string>
 
     <string name="title_slide_5">Favorites</string>
     <string name="description_slide_5">Create your favorite list and save any content to view it later . </string>
 
     <string name="title_slide_6">Give your Reactions </string>
-    <string name="description_slide_6">Browse best wallpapers collection  and give your reaction like,report ...</string>
+    <string name="description_slide_6">Browse best Wallpapers collection and give your reaction like,report ...</string>
 
-    <string name="title_slide_8">Be Premium,Take your freedom</string>
-    <string name="description_slide_8">Subscribe with a small price , and take your freedom by remove all ads . and download the premuim content</string>
+    <string name="title_slide_8">Be Premium,Take your Freedom</string>
+    <string name="description_slide_8">Subscribe with a small price and take your freedom by removing all ads and download the premium content</string>
 
 
     <string name="report_ringtone">Report this Wallpaper</string>
@@ -125,7 +125,7 @@
     <string name="invalide_url">Invalid Url</string>
     <string name="loading_user_data">Loading user data</string>
     <string name="permission_desc">Now we need your permission to continue use the application perfectly</string>
-    <string name="permission_title">Everything is okey</string>
+    <string name="permission_title">Everything is okay</string>
     <string name="gif_upload_error">Please select an image</string>
     <string name="image_upload_success">Your wallpaper image has been successfully uploaded</string>
     <string name="video_upload_success">Your wallpaper video has been successfully uploaded</string>

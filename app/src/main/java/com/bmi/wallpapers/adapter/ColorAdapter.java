@@ -83,7 +83,7 @@ public class ColorAdapter extends  RecyclerView.Adapter<ColorAdapter.ColorHolder
 
         public ColorHolder(View itemView) {
             super(itemView);
-            this.card_view_tag_item_global=(CardView) itemView.findViewById(R.id.card_view_tag_item_global);
+            //this.card_view_tag_item_global=(CardView) itemView.findViewById(R.id.card_view_tag_item_global);
             this.text_view_item_tag_item=(TextView) itemView.findViewById(R.id.text_view_item_tag_item);
         }
     }

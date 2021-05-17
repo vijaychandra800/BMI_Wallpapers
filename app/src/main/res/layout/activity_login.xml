@@ -143,7 +143,7 @@
                     android:enabled="false"
 
                     android:visibility="visible"
-                    facebook:com_facebook_login_text="Login with facebook"
+                    facebook:com_facebook_login_text="Login with Facebook"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="3dp"
@@ -226,7 +226,7 @@
                             android:gravity="center"
                             android:textStyle="bold"
                             android:textColor="@color/white"
-                            android:text="Login with Phone number"
+                            android:text="Login with Phone Number"
                             android:layout_width="match_parent"
                             android:layout_height="40dp" />
                     </RelativeLayout>
@@ -276,7 +276,7 @@
                     android:textSize="15dp"
                     android:textStyle="bold"
                     android:textColor="@color/colorAccent"
-                    android:text="Please Type the verification code sended to you"
+                    android:text="Please type the verification code sent to you"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
                 <EditText
@@ -343,7 +343,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:text="Enter your phone number"
+                    android:text="Enter your Phone Number"
                     android:textColor="@color/colorAccent"
                     android:textSize="17dp"
                     android:textStyle="bold" />
@@ -407,7 +407,7 @@
                             android:gravity="center"
                             android:textStyle="bold"
                             android:textColor="@color/white"
-                            android:text="Send the verification code"
+                            android:text="Send the Verification Code"
                             android:layout_width="match_parent"
                             android:layout_height="40dp" />
                     </RelativeLayout>
@@ -428,7 +428,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:text="Enter your full name"
+                    android:text="Enter your Full Name"
                     android:textColor="@color/colorAccent"
                     android:textSize="17dp"
                     android:textStyle="bold" />

@@ -262,12 +262,11 @@ public class UploadImageActivity extends AppCompatActivity implements ProgressRe
             String picturePath = cursor.getString(columnIndex);
             cursor.close();
 
-
             videoUrl = picturePath  ;
 
             File file = new File(videoUrl);
             Log.v("SIZE",file.getName()+"");
-            edit_text_upload_title.setText(file.getName().replace(".mp4","").replace(".MP4",""));
+//            edit_text_upload_title.setText(file.getName().replace(".mp4","").replace(".MP4",""));
 
         } else {
 

@@ -250,11 +250,7 @@ public class WallpaperAdapter extends  RecyclerView.Adapter<RecyclerView.ViewHol
                     @Override
                     public void onClick(View view) {
 
-
                         PrefManager prefManager= new PrefManager(activity);
-
-
-
 
                         if(checkSUBSCRIBED()){
                             selectOperation(position);

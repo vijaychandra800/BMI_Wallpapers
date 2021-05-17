@@ -400,7 +400,7 @@ public class WallActivity extends AppCompatActivity {
         //
         load();
         relative_layout_wallpaper_activity_container.setBackgroundColor(Color.parseColor(color));
-        card_view_wallpaper_activity_indicator.setCardBackgroundColor(statusColor);
+        card_view_wallpaper_activity_indicator.setCardBackgroundColor(statusColor); //run once
         relative_activity_wallpaper_layout_panel_bottom.setBackgroundColor(bgColor);
 
 

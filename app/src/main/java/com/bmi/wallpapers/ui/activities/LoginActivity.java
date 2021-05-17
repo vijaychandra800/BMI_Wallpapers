@@ -180,13 +180,13 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
         });
         relative_layout_confirm_top_login_activity.setOnClickListener(v->{
             if(otp_edit_text_login_activity.getText().toString().length()<6){
-                Toasty.error(this, "The verification code you have been entered incorrect !", Toast.LENGTH_SHORT).show();
+                Toasty.error(this, "The verification code you have been entered incorrect!", Toast.LENGTH_SHORT).show();
             }else{
                 if (!otp_edit_text_login_activity.getText().toString().trim().equals(VerificationCode.toString().trim())){
                     String photo = "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg" ;
                     signUp(phoneNum,phoneNum,"null".toString(),"phone",photo);
                 }else{
-                    Toasty.error(this, "The verification code you have been entered incorrect !", Toast.LENGTH_SHORT).show();
+                    Toasty.error(this, "The verification code you have been entered incorrect!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -205,7 +205,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
             new AlertDialog.Builder(this)
                     .setTitle("We will be verifying the phone number:"  )
                     .setMessage(" \n"+phoneNum+" \n\n Is this OK,or would you like to edit the number ?")
-                    .setPositiveButton("Confrim",
+                    .setPositiveButton("Confirm",
                             (dialog, which) -> {
                                 //Do Something Here
                                 loginWithPhone();
